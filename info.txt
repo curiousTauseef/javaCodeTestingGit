@@ -1,0 +1,64 @@
+9-Feb-2k19
+This file created by Tauseef.
+The project here is a Java project that was initially
+created for the Java Basic programming project at KUL advanced Masters program.
+First the project was run on Eclipse in Windows laptop.
+Then this project was also run on Ubuntu platform using
+Java software on Ubuntu.
+
+Here I list the softwares I installed on Ubuntu to run the Java project.
+
+
+1. sudo apt-get install vim-gtk3
+
+2.
+---------------------------------------------------------------------------------------------------
+Installing Java..
+---------------------------------------------------------------------------------------------------
+before using eclipse ide we need to install java
+we can install either JRE or JDK
+
+JRE comes with minimal tools to create java applications. JDK is full fledged toolkit which have everything which is required to create a java applications.
+[https://www.unixmen.com/installing-java-jrejdk-ubuntu-16-04/]
+
+Next there are two flavors of Java - open source or oracle
+
+*Also there is NO need to install Oracle JDK (Actually OpenJDK is much better than Oracle one for me).
+ [http://askubuntu.com/questions/759451/how-can-i-install-openjdk-on-ubuntu-16-04]
+
+ If you do it without -y, you will see that webupd8team recommend using java 8 as version 9 has issues.
+XXXXXX Thus dont try sudo apt install openjdk-9-jre. XXXXXXX
+
+ I installed java 8 using this method today & it worked fine (but I don't know how to solve your problem for java 9) – Zanna Apr 29 at 16:16 
+[http://askubuntu.com/questions/764993/oracle-java-9-installer-fails-in-ubuntu-16-04?rq=1]
+
+Use this command to install version 8 of open jdk
+sudo apt-get install openjdk-8*
+[http://askubuntu.com/questions/762999/how-to-install-java-8-in-ubuntu-16-04]
+This will install the folowing packages:
+
+openjdk-8-jre-dcevm - Alternative VM for OpenJDK 8 with enhanced class redefinition
+openjdk-8-jre-zero - Alternative JVM for OpenJDK, using Zero/Shark
+openjdk-8-dbg - Java runtime based on OpenJDK (debugging symbols)
+openjdk-8-demo - Java runtime based on OpenJDK (demos and examples)
+openjdk-8-doc - OpenJDK Development Kit (JDK) documentation
+openjdk-8-jdk - OpenJDK Development Kit (JDK)
+openjdk-8-jdk-headless - OpenJDK Development Kit (JDK) (headless)
+openjdk-8-jre - OpenJDK Java runtime, using Hotspot JIT
+openjdk-8-jre-headless - OpenJDK Java runtime, using Hotspot JIT (headless)
+openjdk-8-jre-jamvm - Alternative JVM for OpenJDK, using JamVM
+openjdk-8-source - OpenJDK Development Kit (JDK) source files
+
+3.
+---------------------------------------------------------------------------------------------------
+Installing Eclipse
+---------------------------------------------------------------------------------------------------
+Firstly I downloaded eclipse-inst-linux64.tar.gz 
+to a location, say ~/softwares.
+
+I untarred the above tarball.
+Then I used the installer program in the untarred directory
+to start the Eclipse installation process.
+
+Also see a picture to see how the installation process looks - eclipseInstallPhoto.png
+
